@@ -22,8 +22,8 @@ color: gold;
 
    .nav-bar {
 position: fixed;
-top: 0;
 width: 100%;
+top: 100px;
 z-index: 999;
 display: flex;
 justify-content: space-between;
@@ -33,10 +33,6 @@ background-color: var(--color2);
 border-bottom: 2px solid gold;
 padding: 12px 20px;
       } 
-
-img {
-padding-top: 10px;
-}
 
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
