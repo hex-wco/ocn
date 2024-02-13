@@ -11,17 +11,22 @@ body {
 .ocn {
 color: gold;
 }
-.nav-bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    position: relative;
-    background-color: var(--color2);
-    padding: 12px 20px;
-    border-bottom: 2px solid gold;
-}
+                                                                                                                                                                                   
+
+   .nav-bar {
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 999;
+display: flex;
+justify-content: space-between;
+align-items: center;
+list-style: none;
+background-color: var(--color2);
+border-bottom: 2px solid gold;
+padding: 12px 20px;
+      } 
+
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
@@ -96,7 +101,7 @@ hr {
   
       .box {
    background-color: #58123F;
-   height: 400px;
+   height: 300px;
    width: 300px;
    margin: 10% auto;
    border-radius: 25%;
