@@ -2,12 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color:gold;
 }
 body {
     background-color: #171717FF;    
     font-family: "Poppins", sans-serif;
     --color2: #58123F ;
+}
+.ocn {
+color: gold;
 }
 .nav-bar {
     width: 100%;
