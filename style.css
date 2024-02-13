@@ -3,10 +3,17 @@
     margin: 0;
     padding: 0;
 }
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
     background-color: #171717FF;    
     font-family: "Poppins", sans-serif;
     --color2: #58123F ;
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
 }
 .ocn {
 color: gold;
