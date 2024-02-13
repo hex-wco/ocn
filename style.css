@@ -34,6 +34,10 @@ border-bottom: 2px solid gold;
 padding: 12px 20px;
       } 
 
+img {
+padding-top: 10px;
+}
+
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
 .menu li a {
