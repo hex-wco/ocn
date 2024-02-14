@@ -15,7 +15,6 @@ body {
     --color2: #D99F33 ;
     font: 15px/1.5 Arial, Helvetica,sans-serif;
     margin:0;
-    padding-top: 50px;
 }
 .ocn {
 color: gold;
@@ -24,8 +23,6 @@ color: gold;
 
    .nav-bar {
 position: fixed;
-width: 100%;
-top: 0;
 z-index: 999;
 display: flex;
 justify-content: space-between;
