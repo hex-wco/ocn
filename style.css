@@ -116,6 +116,15 @@ hr {
    position: relative;
          }
 
+      .box2 {
+   background-color: #58123F;
+   height: 1000px;
+   width: 300px;
+   margin: 10% auto;
+   border-radius: 25%;
+   position: relative;
+         }
+
 
         .text {
     position: absolute;
