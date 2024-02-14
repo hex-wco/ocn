@@ -30,10 +30,14 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 list-style: none;
-background-color: var(--color2);
+background-color: transparent;
 border-bottom: 2px solid gold;
 padding: 12px 20px;
       } 
+
+header {
+background-image: url(https://media.discordapp.net/attachments/1001067895549337710/1207406504161054730/1E8556AA-C416-4938-B90C-9E34C869256D.png?ex=65df87ef&is=65cd12ef&hm=8a153b8624e1662dfdc44e4ad52f62601d89a82bb8baeb36dd494699ceb8ceb9&);
+} 
 
 .menu {display: flex;}
 .menu li {padding-left: 30px;}
