@@ -136,3 +136,17 @@ hr {
     font-family: Arial;
     font-style: italic;
           }
+
+                                                                                                                                        button {
+position: relative;
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+font-weight: bold;
+border: 2px solid gold;
+background: #58123F;
+color: white;
+cursor: pointer;
+overflow: hidden;
+    }
