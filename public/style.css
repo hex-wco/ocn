@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    animation: 0.5s fade-in;
 }
 html {
     height: 100%;
@@ -17,7 +16,7 @@ body {
     margin:0;
 }
 .ocn {
-color: gold;
+color: white;
 }
                                                                                                                                                                                    
 
@@ -37,7 +36,7 @@ padding: 12px 20px;
 .menu li a {
     display: inline-block;
     text-decoration: none;
-    color: gold;
+    color: white;
     text-align: center;
     transition: 0.15s ease-in-out;
     position: relative;
