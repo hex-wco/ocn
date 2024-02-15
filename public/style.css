@@ -32,7 +32,7 @@ padding: 12px 20px;
       } 
 
 .menu {display: flex;}
-.menu li {padding-left: 30px;}
+.menu li {padding-left: 15px;}
 .menu li a {
     display: inline-block;
     text-decoration: none;
