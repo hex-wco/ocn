@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+  height: 100%;
+  width: 100%;
+
+} 
+body {
+    
+    font-family: "Poppins", sans-serif;
+    --color2: gold;
+}
+
+.ocn {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+.ocn a {
+  text-decoration: none;
+  color: white;
+}
+
+.ocn2 {
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+.ocn2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar {
+    width: 100%;
+    display: flex;
+    
+    align-items: center;
+    list-style: none;
+    position: relative;
+    background-color: transparent;
+    padding: 12px 10px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+.logo {
+  width: 40px;
+  padding-right: 2px;
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+.menu {
+  display: flex;
+      }
+.menu li {padding-left: 20px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: white;
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu , .close-menu {
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
+@media(max-width: 610px){
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display: block;}
+    #check:checked ~ .menu {right: 0;}
+  .div {
+    padding-top: 80px;
+    color: white;
+    text-align: center;
+    width: 350px;
+    }
+  
+  .orbis {
+    height: 200px;
+  }
+
+  
+}
+
+button {
+width: 200px;
+padding: 15px 0;
+text-align: center;
+margin: 20px 10px;
+font-weight: bold;
+border: 2px solid gold;
+background: #D99F33;
+color: white;
+cursor: pointer;
+overflow: hidden;
+}
+
+@media(min-width: 610px) {
+ html {
+   height: 100%;
+ }
+  .ocn {
+    padding-right: 250px;
+  }
+  .ocn2 {
+    padding-right: 160px;
+  }
+ .div {
+    padding-top: 90px;
+    color: white;
+    width: 350px;
+    position: absolute;
+    text-align: center;
+    padding-left: 50px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    }
+  
+  .orbis {
+    height: 400px;
+    float: right;
+    padding-top: 80px;
+    padding-right: 30px;
+    opacity: 0;
+    animation: fadeIn 2s forwards;  
+
+  }
+
+  .pnw {
+    border-left: 2px solid white;
+    padding-left: 10px;
+ } 
+  
+.space {
+    padding-right: 20px;
+  }
+  
+  .content {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+  }
+  .content2 {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+    position: relative;
+  }
+} 
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.content {
+  text-align: center;
+  item-align: center;
+  color: white;
+  padding-top: 70px;
+}
+.content2 {
+  text-align: center;
+  item-align: center;
+  color: white;
+  padding-top: 30px;
+}
+.content2 a {
+  text-decoration: none;
+}
+.content2 img {
+  height: 250px;
+}
