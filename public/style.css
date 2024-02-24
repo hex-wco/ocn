@@ -217,3 +217,7 @@ overflow: hidden;
 .content2 img {
   height: 250px;
 }
+
+.list-style {
+  text-align: left;
+} 
